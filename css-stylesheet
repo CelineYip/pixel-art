@@ -1,0 +1,89 @@
+body {
+    text-align: center;
+    font-family: 'Homemade Apple';
+    text-shadow: 0 0 1px #F8F8FF;
+    font-size: 30px;
+    color: #F8F8FF;
+    border: 2px #F8F8FF;
+    background-image: url("https://howtonestforless.com/wp-content/uploads/2013/01/Chalkboard-background.jpg")
+}
+
+h1 {
+    font-family: 'Homemade Apple';
+    font-size: 70px;
+    text-shadow: 0 0 1px #F8F8FF;
+    margin: .5em;
+    color: #F8F8FF;
+}
+
+h2 {
+    font-family: 'Homemade Apple', sans-serif;
+    text-shadow: 0 0 1px #F8F8FF;
+    font-size: 50px;
+    margin: .5em;
+    color: #F8F8FF;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+input[type=number] {
+    width: 6em;
+}
+
+#sizePicker {
+  font-size: 20px
+}
+
+#inputHeight, #inputWidth {
+  font-family: 'Homemade Apple';
+  font-size: 20px;
+  text-shadow: 0 0 1px #F8F8FF;
+  color: #F8F8FF;
+  background-color: transparent;
+  border: none;
+}
+
+#Ampersand {
+  font-size: 50px;
+}
+
+button {
+  font-family: 'Homemade Apple';
+  font-size: 30px;
+  color: #F8F8FF;
+  background-color: transparent;
+  padding: 0 20px 0;
+  border: 25px solid rgba(255,255,255,.8);
+  border-image: url("https://www.unicefusa.org/sites/default/files/answer-box.png") 20;
+}
+
+#colorPicker {
+  border: none; 
+}
+
+
+table,
+tr,
+td {
+    border: 1px solid #F8F8FF;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+.chalk-border {
+  border: 25px solid rgba(255,255,255,.8);
+  border-image: url("https://www.unicefusa.org/sites/default/files/answer-box.png") 20;
+}
