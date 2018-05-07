@@ -1,0 +1,27 @@
+<html>
+<head>
+    <title>Pixel Art Maker!</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Advent+Pro|Chathura|Homemade+Apple|Nunito|Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="chalk-border">
+    <h1>Pixel   Art   Maker</h1>
+
+    <h2>1. choose  grid  size</h2>
+    <form id="sizePicker">
+        grid height :
+        <input type="number" id="inputHeight" name="height" min="1" value="10"><span id="Ampersand"> & &nbsp &nbsp</span>
+        grid width :
+        <input type="number" id="inputWidth" name="width" min="1" value="10">
+      <button id="update">submit</button>
+    </form>
+
+    <h2>2. pick a color</h2>
+    <input type="color" id="colorPicker">
+
+    <h2>3. design canvas</h2>
+    <table id="pixelCanvas"></table>
+
+    <script src="designs.js"></script>
+</body>
+</html>
